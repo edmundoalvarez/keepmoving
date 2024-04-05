@@ -1,0 +1,7 @@
+Normal
+Usuario: normal@user.com
+Contraseña: asdasd
+
+Admin
+Usuario: admin@user.com
+Contraseña: asdasd
