@@ -621,6 +621,7 @@ li{
     justify-content: flex-end;
 }
 
+
 @media (max-width: 1024px) {
 
     .navbar{
@@ -760,5 +761,31 @@ li{
         width: 100%;
     }
 
+}
+
+@media (max-width: 992px) {
+    .menu{
+        background-color: #212529;
+        position:absolute;
+        width: 100%;
+        left: 0;
+        top: 56px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        padding: 40px 0px 0px;
+    }
+
+    .menu li {
+        margin: 0px;
+        border: solid 1px rgb(16, 16, 16);
+        background-color: #313437;
+        width: 100%;
+        text-align: center;
+        padding: 6px 0px;
+    }
 }
 

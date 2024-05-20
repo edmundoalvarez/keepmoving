@@ -12,11 +12,11 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
             <div class="container-fluid d-flex justify-content-end">           
                 <h1 class="text-white fs-3">Keep Moving</h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbarModal">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto menu">
                         <li class="nav-item">
                             <a class="nav-link active" href="<?= route('home'); ?>">Inicio</a>
                         </li>
@@ -83,5 +83,6 @@
             <p>Edmundo Alvarez - Da Vinci &copy; 2023</p>
         </footer>
     </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
